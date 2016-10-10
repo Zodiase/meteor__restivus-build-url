@@ -33,8 +33,10 @@ const patch = (_Restivus) => {
   return _Restivus;
 };
 
+patch(Restivus);
+
 export {
   buildUrl,
   patch,
-  Restivus: patch(Restivus)
+  Restivus
 };
