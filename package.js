@@ -13,6 +13,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.4.1.1');
   api.use('ecmascript');
+  api.use('accounts-base');
+  api.use('accounts-password');
   api.use('nimble:restivus@0.8.11');
   api.use('zodiase:check@=0.0.5');
   api.mainModule('restivus-build-url.js', 'server');
